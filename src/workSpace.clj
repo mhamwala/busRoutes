@@ -31,4 +31,4 @@
 ;; (dijkstra {:state "newcastle" :cost 0} "chester" busRoutes01)
 ;; (time (dijkstra {:state "newcastle" :cost 0} "chester" busRoutes01))
 
-;; (efficient? "enter algorithm here" {:state "newcastle" :cost 0} "chester" busRoutes02)
+;; (efficient? (best-firstSearch {:state "newcastle" :cost 0} "chester" busRoutes01) {:state "newcastle" :cost 0} "chester" busRoutes02)
